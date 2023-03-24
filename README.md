@@ -1,12 +1,12 @@
 ﻿# Invoice Management Web App
 ## Proje Tanımı
-Bir daireye ait faturalar eklenebilir/düzenlenebilir/silinebilir.
+Bir daireye ait faturalar eklenebilir / düzenlenebilir / silinebilir.
 Kullanıcılar görüntülenebilir.
 
 ### Fatura Bilgilerinde:
 ●  Id ● Fatura Tipi ● Ödenecek Tutar ● Ev Numarası ● Fatura Tarihi bulunur.
 
-### Kullan?c? Bilgilerinde:
+### Kullanıcı Bilgilerinde:
 ● Id ● İsim ● Email ● Telefon ● Ev Numarası bulunur.
 
 ## Projede Kullanılan Teknolojiler
@@ -24,7 +24,7 @@ Kullanıcılar görüntülenebilir.
 
 ---
 
-✔ Mevcut fatura bilgisi güncellenebilir/silinebilir.
+✔ Mevcut fatura bilgisi güncellenebilir / silinebilir.
 ![Update_Delete_Invoice](https://github.com/melekny/Invoice-Management-Web-App/blob/main/UI_Screenshots/edit_delete_invoice.png)
 
 ---
