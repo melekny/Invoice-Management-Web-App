@@ -1,6 +1,6 @@
 ﻿# Invoice Management Web App
 ## Proje Tanımı
-Bir daireye ait faturalar eklenebilir / düzenlenebilir / silinebilir.
+Bir daireye ait faturalar eklenebilir/düzenlenebilir/silinebilir.
 Kullanıcılar görüntülenebilir.
 
 ### Fatura Bilgilerinde:
@@ -10,8 +10,8 @@ Kullanıcılar görüntülenebilir.
 ● Id ● İsim ● Email ● Telefon ● Ev Numarası bulunur.
 
 ## Projede Kullanılan Teknolojiler
-- Backend: .Net 6 - C# | Frontend: Angular 14
-- Veri Tabanı/Database: MS SQL Server 
+- Backend: .Net v6 - C# | Frontend: Angular v14
+- Veri Tabanı/Database: MS SQL Server MS 19
 
 ## Uygulama Ekran Görüntüleri
 ✔ Fatura detayları görüntülenebilir.
@@ -24,7 +24,7 @@ Kullanıcılar görüntülenebilir.
 
 ---
 
-✔ Mevcut fatura bilgisi güncellenebilir / silinebilir.
+✔ Mevcut fatura bilgisi güncellenebilir/silinebilir.
 ![Update_Delete_Invoice](https://github.com/melekny/Invoice-Management-Web-App/blob/main/UI_Screenshots/edit_delete_invoice.png)
 
 ---
