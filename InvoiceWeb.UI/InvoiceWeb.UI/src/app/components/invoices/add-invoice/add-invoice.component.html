@@ -1,0 +1,30 @@
+<div class=container my-5>
+    <h1 class="mb-3">Add New Invoice</h1>
+    <div class="row">
+        <div class= "col-5">
+            <form #form="ngForm" (ngSubmit)="addInvoice()">
+                <div class="mb-3">
+                  <label for="type" class="form-label">Type</label>
+                  <input type="text" class="form-control" id="type" 
+                  name = "type" [(ngModel)]="addInvoiceRequest.invoiceType">
+                </div>
+                <div class="mb-3">
+                  <label for="amount" class="form-label">Amount</label>
+                  <input type="number" class="form-control" id="amount"
+                  name = "amount" [(ngModel)]="addInvoiceRequest.amount">
+                </div>
+                <div class="mb-3">
+                  <label for="date" class="form-label">Invoice Date</label>
+                  <input type="date" class="form-control" id="date"
+                  name = "date" [(ngModel)]="addInvoiceRequest.invoiceDate">
+                </div>
+                <div class="mb-3">
+                    <label for="houseNo" class="form-label">House Number</label>
+                    <input type="number" class="form-control" id="houseNo"
+                    name = "houseNo" [(ngModel)]="addInvoiceRequest.houseNo">
+                </div>
+                <button type="submit" class="btn btn-info">Add</button>
+              </form>
+        </div>
+    </div>
+</div>

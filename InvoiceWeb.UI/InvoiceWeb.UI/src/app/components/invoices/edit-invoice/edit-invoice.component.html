@@ -1,0 +1,38 @@
+<div class=container my-5>
+    <h1 class="mb-3">Edit Invoice</h1>
+    <div class="row">
+        <div class= "col-5">
+            <form #form="ngForm" (ngSubmit)="updateInvoice()">
+
+                <div class="mb-3">
+                    <label for="id" class="form-label">Id</label>
+                    <input type="text" class="form-control" id="id" readonly 
+                    name = "id" [(ngModel)]="invoiceDetails.id">
+                  </div>
+                <div class="mb-3">
+                  <label for="type" class="form-label">Type</label>
+                  <input type="text" class="form-control" id="type" 
+                  name = "type" [(ngModel)]="invoiceDetails.invoiceType">
+                </div>
+                <div class="mb-3">
+                  <label for="amount" class="form-label">Amount</label>
+                  <input type="number" class="form-control" id="amount"
+                  name = "amount" [(ngModel)]="invoiceDetails.amount">
+                </div>
+                <div class="mb-3">
+                  <label for="date" class="form-label">Invoice Date</label>
+                  <input type="date" class="form-control" id="date"
+                  name = "date" [(ngModel)]="invoiceDetails.invoiceDate">
+                </div>
+                <div class="mb-3">
+                    <label for="houseNo" class="form-label">House Number</label>
+                    <input type="number" class="form-control" id="houseNo"
+                    name = "houseNo" [(ngModel)]="invoiceDetails.houseNo">
+                </div>
+                <button type="submit" class="btn btn-info">Save</button>
+                <button type="button" class="btn btn-danger"
+                (click)="deleteInvoice(invoiceDetails.id)">Delete</button>
+              </form>
+        </div>
+    </div>
+  </div>
